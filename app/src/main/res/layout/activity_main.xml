@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <com.example.alien.course05task08.CircleIndicator
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:value="0"
+        app:maxValue="4"/>
+
+    <com.example.alien.course05task08.CircleIndicator
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:value="1"
+        app:maxValue="4"/>
+        <com.example.alien.course05task08.CircleIndicator
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:value="2"
+            app:maxValue="4"/>
+        <com.example.alien.course05task08.CircleIndicator
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:value="3"
+            app:maxValue="4"/>
+
+        <com.example.alien.course05task08.CircleIndicator
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:value="4"
+            app:maxValue="4"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.example.alien.course05task08.CircleIndicator
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:value="0"
+            app:maxValue="16"/>
+
+        <com.example.alien.course05task08.CircleIndicator
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:value="4"
+            app:maxValue="16"/>
+        <com.example.alien.course05task08.CircleIndicator
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:value="8"
+            app:maxValue="16"/>
+        <com.example.alien.course05task08.CircleIndicator
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:value="12"
+            app:maxValue="16"/>
+
+        <com.example.alien.course05task08.CircleIndicator
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:value="16"
+            app:maxValue="16"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.example.alien.course05task08.CircleIndicator
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:value="0"
+            app:maxValue="2"
+            app:color="@color/colorAccent"/>
+
+        <com.example.alien.course05task08.CircleIndicator
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:value="1"
+            app:maxValue="2"
+            app:backgroundColor="@color/colorPrimary"/>
+
+        <com.example.alien.course05task08.CircleIndicator
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:value="2"
+            app:maxValue="2"/>
+
+    </LinearLayout>
+
+    <com.example.alien.course05task08.CircleIndicator
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:value="3"
+        app:maxValue="5"
+        app:color="@color/colorAccent"
+        app:backgroundColor="@color/colorPrimaryDark"/>
+
+</LinearLayout>

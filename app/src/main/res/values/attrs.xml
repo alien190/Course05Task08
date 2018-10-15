@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleIndicator">
+        <attr name="value" format="integer" />
+        <attr name="maxValue" format="integer" />
+        <attr name="color" format="color" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+</resources>
